@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#0f172a">
+    <title>КВН Уфа</title>
+    <style>
+        :root { color-scheme: dark; }
+        * { box-sizing: border-box; }
+        html, body { height: 100%; margin: 0; }
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+            background: #0f172a;
+            color: #e2e8f0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            text-align: center;
+        }
+        .card { max-width: 360px; }
+        .logo {
+            width: 72px; height: 72px; margin: 0 auto 20px;
+            border-radius: 18px; background: #f59e0b;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 26px; font-weight: 700; color: #0f172a;
+        }
+        h1 { font-size: 20px; margin: 0 0 8px; }
+        p { margin: 0 0 20px; color: #94a3b8; font-size: 14px; line-height: 1.5; }
+        button {
+            appearance: none; border: 0; border-radius: 12px;
+            padding: 12px 22px; font-size: 15px; font-weight: 600;
+            background: #f59e0b; color: #0f172a; cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="logo">КВН</div>
+        <h1>Нет соединения</h1>
+        <p>Приложение загружает сайт kvnrb.ru. Проверьте интернет и попробуйте снова.</p>
+        <button type="button" onclick="location.reload()">Повторить</button>
+    </div>
+</body>
+</html>

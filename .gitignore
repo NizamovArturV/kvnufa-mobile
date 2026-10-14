@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Android
+android/.gradle/
+android/.idea/
+android/build/
+android/app/build/
+android/app/release/
+android/.cxx/
+android/local.properties
+android/app/src/main/assets/public/
+*.keystore
+*.jks
+
+# iOS
+ios/App/Pods/
+ios/App/build/
+ios/App/DerivedData/
+ios/App/App/public/
+ios/App/App.xcworkspace/xcuserdata/
+ios/App/App.xcodeproj/xcuserdata/
+*.xcuserstate
+
+# Env / secrets
+.env
+.env.*
+!*.example
+
+# Misc
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*

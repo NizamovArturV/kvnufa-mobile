@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">КВН Уфа</string>
+    <string name="title_activity_main">КВН Уфа</string>
+    <string name="package_name">ru.kvnrb.app</string>
+    <string name="custom_url_scheme">ru.kvnrb.app</string>
+    <string name="default_notification_channel_id" translatable="false">kvn_default</string>
+    <string name="default_notification_channel_name">Уведомления</string>
+    <string name="default_notification_channel_description">Уведомления КВН Уфа</string>
+</resources>
