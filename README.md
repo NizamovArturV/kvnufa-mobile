@@ -7,6 +7,7 @@
 - Целевые сторы: RuStore → Google Play → App Store.
 - Продуктовый/архитектурный план: [docs/mobile-app.md](docs/mobile-app.md).
 - Настройка серверной части (APNs/RuStore/FCM, deep links, Wallet): [docs/mobile-app-setup.md](docs/mobile-app-setup.md).
+- Сборка и настройка iOS (macOS): [docs/ios.md](docs/ios.md).
 
 Документы в `docs/` — копии, синхронизируемые с основным репозиторием сайта (Bitrix). Если правите
 док — правьте в источнике и переносите сюда.
